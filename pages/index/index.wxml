@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view wx:for="{{items}}" class="item">
+    <view data-id="{{item._id}}" data-name="{{item.name}}">
+      <image src="{{item.imageUrl}}" mode="aspectFit"></image>
+      <view class="detail">
+        <text class="name">{{item.name}}</text>
+        <text class="price">${{item.price}}</text>
+      </view>
+    </view>
+  </view>
+</view>
