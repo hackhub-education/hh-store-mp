@@ -1,0 +1,54 @@
+/* pages/payment/billing.wxss */
+
+.container {
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  border: 1px solid #f0f0f0;
+  padding: 5px;
+  font-size: 14px;
+  display: block;
+}
+
+.section text {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  display: block;
+}
+
+.half:nth-child(odd) {
+  width: 50%;
+  padding-right: 10px;
+  display: inline-block; 
+  box-sizing: border-box;
+}
+
+.half:nth-child(even) {
+  width: 50%;
+  padding-left: 10px;
+  display: inline-block; 
+  box-sizing: border-box;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item .price {
+  font-size: 16px;
+  font-weight: bold;
+}

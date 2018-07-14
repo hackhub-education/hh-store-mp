@@ -1,6 +1,7 @@
-// pages/index/detail.js
+// pages/payment/billing.js
 
 const app = getApp()
+
 
 Page({
 
@@ -20,7 +21,7 @@ Page({
       if (item._id === options.id) {
         that.setData({
           item: item
-        })        
+        })
       }
     });
   },
@@ -73,10 +74,16 @@ Page({
   onShareAppMessage: function () {
   
   },
-
-  purchase: function() {
-    wx.navigateTo({
-      url: '/pages/payment/billing?id=' + this.data.item._id,
+  makePayment: function (e) {
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+    // Send credit card information to 3rd party service
+    // If payment success show success toast
+    wx.showModal({
+      title: '支付成功',
+      content: '您购买的' + this.data.item.name + '将于3日内送达',
+      success: function (res) {
+        wx.navigateBack()
+      }
     })
-  }
+  },
 })

@@ -1,0 +1,7 @@
+<!--pages/payment/success.wxml-->
+<view class='container'>
+
+  <image src='/'></image>
+
+
+</view>

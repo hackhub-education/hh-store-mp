@@ -39,6 +39,12 @@
 					"name": "产品细节",
 					"pathName": "pages/index/detail",
 					"query": "id=5b4a6ade0b7f6a60cbede079"
+				},
+				{
+					"id": -1,
+					"name": "购买产品",
+					"pathName": "pages/payment/billing",
+					"query": "id=5b4a6ade0b7f6a60cbede079"
 				}
 			]
 		}

@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/index/detail",
+    "pages/payment/billing",
     "pages/logs/logs"
   ],
   "window":{

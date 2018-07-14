@@ -1,0 +1,42 @@
+<!--pages/payment/billing.wxml-->
+<view class='container'>
+  <text>订单详情</text>
+  <view class='item'>
+    <text class="name">{{item.name}}</text>
+    <text class="price">${{item.price}}</text>
+  </view>
+
+  <form bindsubmit='makePayment'>
+    <view class="section">
+      <text>持卡人姓名</text>
+      <input name="name" />
+    </view>
+    <view class="section">
+      <text>信用卡号</text>
+      <input name="number" />
+    </view>
+
+    <view class="section half">
+      <text>到期日期</text>
+      <input name="exp" />
+    </view>
+
+    <view class="section half">
+      <text>CCV</text>
+      <input name="ccv" />
+    </view>
+
+    <view class="section">
+      <text>联系电话</text>
+      <input name="phone" />
+    </view>
+
+    <view class="section">
+      <text>收件人地址</text>
+      <input name="address" />
+    </view>
+
+    <button class="btn-fix" type="primary" formType="submit">提交订单</button>
+
+  </form>
+</view>

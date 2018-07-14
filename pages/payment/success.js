@@ -1,28 +1,18 @@
-// pages/index/detail.js
-
-const app = getApp()
-
+// pages/payment/success.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item: {}
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    let that = this
-    app.globalData.items.forEach(function (item) {
-      if (item._id === options.id) {
-        that.setData({
-          item: item
-        })        
-      }
-    });
+  
   },
 
   /**
@@ -72,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-
-  purchase: function() {
-    wx.navigateTo({
-      url: '/pages/payment/billing?id=' + this.data.item._id,
-    })
   }
 })

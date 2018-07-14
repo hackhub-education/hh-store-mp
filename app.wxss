@@ -35,3 +35,10 @@ button {
 }
 
 button::after{ border: none; }
+
+.btn-fix {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
