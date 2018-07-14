@@ -52,10 +52,10 @@ Page({
         'content-type': 'application/json' // 默认值
       },
       success: function (res) {
-        console.log(res.data)
         that.setData({
           items: res.data.items
         })
+        app.globalData.items = res.data.items
       }
     })
   },

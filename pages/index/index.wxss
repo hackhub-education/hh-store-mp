@@ -24,24 +24,4 @@
   width: 50%;
   box-sizing: border-box;
   border: 1px solid #f9f9f9;
-  padding: 5px;
-}
-
-.detail {
-  display: flex;
-  justify-content: space-between;
-}
-
-.item image {
-  width: 100%;
-}
-
-.item .name {
-  font-size: 12px;
-}
-
-.item .price {
-  color: crimson;
-  font-size: 12px;
-  font-weight: bold;
 }

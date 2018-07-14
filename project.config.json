@@ -23,13 +23,24 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "产品细节",
+					"pathName": "pages/index/detail",
+					"query": "id=5b4a6ade0b7f6a60cbede079"
+				}
+			]
 		}
 	}
 }

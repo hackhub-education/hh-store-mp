@@ -7,3 +7,25 @@
   box-sizing: border-box;
   flex-wrap: wrap;
 } 
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item image {
+  width: 100%;
+}
+
+.item .name {
+  font-size: 12px;
+}
+
+.item .price {
+  color: crimson;
+  font-size: 12px;
+  font-weight: bold;
+}

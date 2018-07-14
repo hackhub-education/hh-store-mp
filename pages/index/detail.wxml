@@ -1,0 +1,9 @@
+<!--pages/index/detail.wxml-->
+<view class='container item'>
+  <image src="{{item.imageUrl}}" mode="aspectFit"></image>
+  <view class="detail">
+    <text class="name">{{item.name}}</text>
+    <text class="price">${{item.price}}</text>
+  </view>
+  <text class='description'>{{item.description}}</text>  
+</view>
