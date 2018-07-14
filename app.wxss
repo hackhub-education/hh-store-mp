@@ -29,3 +29,9 @@
   font-size: 12px;
   font-weight: bold;
 }
+
+button {
+  border-radius: 0;
+}
+
+button::after{ border: none; }

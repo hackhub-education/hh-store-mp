@@ -17,3 +17,9 @@
 .detail {
   padding: 10px;
 }
+
+.btn-fix {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

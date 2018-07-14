@@ -6,4 +6,5 @@
     <text class="price">${{item.price}}</text>
   </view>
   <text class='description'>{{item.description}}</text>  
+  <button class='btn-fix' type="primary">马上购买</button>
 </view>
